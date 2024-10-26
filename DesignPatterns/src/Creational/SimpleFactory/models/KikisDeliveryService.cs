@@ -1,4 +1,4 @@
-using Creational.SimpleFactory;
+namespace Creational.SimpleFactory;
 
 class KikisDeliveryService : AbstractGhibliMovie
 {
