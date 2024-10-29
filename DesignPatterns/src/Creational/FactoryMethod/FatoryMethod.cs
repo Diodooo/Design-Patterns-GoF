@@ -1,6 +1,6 @@
 namespace Creational.FactoryMethod;
 
-public class FatoryMethod
+public class FactoryMethod
 {
     public static void Run()
     {
