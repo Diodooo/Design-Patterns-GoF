@@ -3,7 +3,7 @@
 
 ## Usage
 - The objective is very similar to a SimpleFactory: hide the object creation details from the client.
-- It differs from a SimpleFactory because it's more flexible. It can handle more levels of abstraction. Instead of only hiding the creation of the GhibliFilm, we can hide the creation details of different streaming services to watch a GhibliFilm. Each streaming service can have its unique characteristics and ways to watch a GhibliFilm.
+- It differs from a SimpleFactory because it's more flexible. It can handle more levels of abstraction. Instead of only hiding the creation of the GhibliFilm, we can hide the creation details of different streaming services to watch a GhibliFilm. Each streaming service can have its unique GhibliFilms.
 
 **OBS:** No it's not two Simple Factories attached, as said before Factory Method is way more flexible because the ConcreateCreators know how to instanciate the correct class.
 
