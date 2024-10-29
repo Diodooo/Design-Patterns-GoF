@@ -14,7 +14,7 @@ class KikisDeliveryService : AbstractGhibliMovie
     {
         Console.WriteLine($"Watching...");
         Console.WriteLine(
-            $"You watched the film during its whole duration! Elapsed time was: {Duration.Hour}:{Duration.Minute}"
+            $"You watched the film during its whole duration! Elapsed time was: {Duration.Hour:00}h{Duration.Minute:00}min"
         );
     }
 }
