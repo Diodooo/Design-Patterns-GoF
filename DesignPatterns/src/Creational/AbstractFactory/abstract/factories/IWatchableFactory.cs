@@ -1,6 +1,6 @@
 namespace Creational.AbstractFactory;
 
-public interface AbstractWatchableFactory
+public interface IWatchableFactory
 {
     IMovie CreateMovie();
     ISerie CreateSerie();
